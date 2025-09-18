@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoja de Vida</title>
+<style>
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+ 
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+ 
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+ 
+        header p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+ 
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+ 
+        section {
+            margin-bottom: 20px;
+        }
+ 
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+ 
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+ 
+        li {
+            margin-bottom: 5px;
+        }
+ 
+        .job-title {
+            font-weight: bold;
+        }
+ 
+        .date {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 5px;
+        }
+ 
+        .skills span {
+            display: inline-block;
+            margin: 2px 5px 2px 0;
+        }
+</style>
+</head>
+<body>
+ 
+    <!-- Encabezado -->
+<header>
+<h1>Nicolas Orjuela</h1>
+<p>Email: manzorjuela@gmail.com | Tel: +57 301 166 4154</p>
+<p>Bogotá, Colombia | Portfolio: (esta en proceso profe)</p>
+</header>
+ 
+    
+<main>
+ 
+        <!-- Perfil profesional -->
+<section>
+<h2>Perfil Profesional</h2>
+<p>Escribe aquí un breve resumen de tu perfil profesional, tus fortalezas y objetivos laborales.</p>
+</section>
+ 
+        <!-- Experiencia laboral -->
+<section>
+<h2>Experiencia Laboral</h2>
+<article>
+<p class="job-title">Auxiliar administrativo</p>
+<p class="date">CMS consulting S.A.S. | Marzo/2023 - Actualidad</p>
+<ul>
+<li>Lider de implemantacion sistemas de gestion en varias empresas simultaneamente.</li>
+<li>Capacitacion de personal, verificacion de antecedentes y creacion de documentos.</li>
+<li>Visitas diarias a diferentes empresas.</li>
+</ul>
+</article>
+</section>
+ 
+        <!-- Educación -->
+<section>
+<h2>Educación</h2>
+<article>
+<p class="job-title">Tecnico en desarrollo de software</p>
+<p class="date">Universidad San Buenaventura | Julio/2023 - Diciembre/2026</p>
+</article>
+</section>
+ 
+        <!-- Mis Habilidades -->
+<section>
+<h2>Habilidades</h2>
+<div class="skills">
+<span>Buen trabajo en equipo</span>
+<span>Resolucion de problemas</span>
+<span>Conocimientos avanzados en ofimatica</span>
+<span>Especialista en IA y promps</span>
+</div>
+</section>
+ 
+        <!-- Idiomas que manejo-->
+<section>
+<h2>Idiomas</h2>
+<ul>
+<li>Español - Nativo</li>
+<li>Ingles - C1</li>
+</ul>
+</section>
+ 
+    </main>
+ 
+</body>
+</html>
+
+ 
